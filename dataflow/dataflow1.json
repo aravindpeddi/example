@@ -54,7 +54,7 @@
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false) ~> source2",
-				"source1, source2 join(source1@Product == ERROR_FUNCTION(''),",
+				"source1, source2 join(source1@Product == source2@Product,",
 				"     joinType:'inner',",
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",
