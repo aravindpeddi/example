@@ -17,7 +17,11 @@
 				"typeProperties": {
 					"dataflow": {
 						"referenceName": "dataflow1",
-						"type": "DataFlowReference"
+						"type": "DataFlowReference",
+						"parameters": {
+							"product1": "source1@Product",
+							"product2": "source2@Product"
+						}
 					},
 					"compute": {
 						"coreCount": 8,
