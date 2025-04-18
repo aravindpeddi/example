@@ -34,6 +34,10 @@
 				}
 			],
 			"scriptLines": [
+				"parameters{",
+				"     product1 as string (source1@Product),",
+				"     product2 as string (source2@Product)",
+				"}",
 				"source(output(",
 				"          {Sales Person} as string,",
 				"          Product as string,",
